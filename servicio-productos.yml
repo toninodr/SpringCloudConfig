@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: servicio-conf # Nombre del archivo de configuración en Github
+cloud:
+    config:
+        uri:http://localhost:8888   # localización de spring cloud config
+        
